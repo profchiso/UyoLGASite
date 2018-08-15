@@ -1,7 +1,10 @@
  <?php
-include 'inc/header.php';
-include 'inc/sidebar.php';
-$fetch = mysql_query("SELECT * FROM lga_cert_request");
+
+ require_once 'db_connect.php';
+ include 'inc/header.php';
+ include 'inc/sidebar.php';
+ require_once 'root_dir.php';
+ require_once 'services/help_file.php';
 ?>
 <div id="page-wrapper">
 	<div class="row">
@@ -49,31 +52,19 @@ $fetch = mysql_query("SELECT * FROM lga_cert_request");
 						</thead>
 						<tbody>
 							<?php
-								while ($row = mysql_fetch_array($fetch)) {
-							?>
+                                          $stmt = $conn->prepare("SELECT * FROM lga_cert_request");
+                                          $stmt->execute(array());
+                                          $users_data=array();
+                                          while($row_data= $stmt->fetch(PDO::FETCH_ASSOC)){
+                                                $users_data[]=$row_data;
+                                          }
+                                          if(!empty($users_data)): ?>
+                                          <?php foreach ($users_data as $key_index=>$row): ?>
 							<tr>
-								<td><?php echo $row['Serial_number']?></td>
-								<td><?php echo $row['Surname']?></td>
-								<td><?php echo $row['Othernames']?></td>
-								<td><?php echo $row['Sex']?></td>
-								<td><?php echo $row['Phone_number']?></td>
-								<td><?php echo $row['Village']?></td>
-								<td><?php echo $row['Clan']?></td>
-								<td><?php echo $row['Ward']?></td>
-								<td><?php echo $row['Current_address']?></td>
-								<td><?php echo $row['Email_address']?></td>
-								<td><?php echo $row['Village_head']?></td>
-								<td><?php echo $row['Village_head_phone']?></td>
-								<td><?php echo $row['Clan_head']?></td>
-								<td><?php echo $row['Clan_head_phone']?></td>
-								<td><?php echo $row['Identification']?></td>
-								<td><?php echo $row['Identification_number']?></td>
-								<td><?php echo $row['Tax_id_number']?></td>
-								<td><?php echo $row['Reason']?></td>
-								<td><?php echo $row['Passport']?></td>
-								<td><?php echo $row['Payment_teller']?></td>
-								<td><?php echo $row['Agreement']?></td>
-								<td><?php echo $row['Date_of_request']?></td>
+								<td><?php echo !empty($row['surname'])?$row['surname']:'' ?></td>
+								<td><?php echo !empty($row['othernames'])?$row['othernames']:'' ?></td>
+								<td><?php echo !empty($row['email'])?$row['email']:'' ?></td>
+								<td><?php echo !empty($row['phone_number'])?$row['phone_number']:'' ?></td>
 								<!--<td><?php //echo $row['Clan']?></td>
 								<td><?php// echo $row['Clan']?></td>
 								<td><?php //echo $row['Clan']?></td>-->
@@ -92,6 +83,8 @@ $fetch = mysql_query("SELECT * FROM lga_cert_request");
 
 								<td><a href="candidate_preview.php?id=<?php echo $row['Regno']?>" class="btn btn-sm btn-info"><i class="fa fa-pencil"></i></a></td>
 							</tr>
+							<?php endforeach; ?>
+							<?php endif; ?>
 							<div class="modal fade" id="delete<?php echo $row['Regno']?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 							  <div class="modal-dialog">
 							    <div class="modal-content">
@@ -105,7 +98,6 @@ $fetch = mysql_query("SELECT * FROM lga_cert_request");
 							    </div>
 							  </div>
 							  </div>
-							<?php } ?>
 						</tbody>
 					</table>
 				</div>
