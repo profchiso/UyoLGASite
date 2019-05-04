@@ -11,7 +11,7 @@ include 'inc/config.php';
 <head>
   <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NASU Online Voting </title>
+    <title>Admin |login </title>
     <!-- Core CSS - Include with every page -->
     <link href="assets/plugins/bootstrap/bootstrap.css" rel="stylesheet" />
     <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
@@ -27,7 +27,7 @@ include 'inc/config.php';
        
         <div class="row">
             <div class="col-md-4 col-md-offset-4 text-center logo-margin ">
-              <h3>NASU Online Voting</h3>
+              <h3>Admin | Login</h3>
                 </div>
             <div class="col-md-4 col-md-offset-4">
                 <div class="login-panel panel panel-default">                  

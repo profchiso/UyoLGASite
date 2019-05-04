@@ -18,6 +18,9 @@ a {
   transition: 0.5s;
 }
 
+
+
+
 a:hover, a:active, a:focus {
   color: #18d36e;
   outline: none;
@@ -1454,4 +1457,176 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   font-size: 13px;
   color: #ddd;
+}
+
+.cert_request_page .submit_btn{display: block;width: 100%;padding: 30px 0px}
+.cert_request_page .reason_for_request_field{display: block;width: 100%;padding-left: 0px}
+.cert_request_page .reason_for_request_field textarea{width: 100%;height: 100px}
+.cert_request_page .reason_for_request_label{display: block;width: 100%}
+.form-row{margin-left: 0px;margin-right: 0px}
+
+
+.indigene_reg .submit_btn{display: block;width: 100%;padding: 30px 0px}
+.indigene_reg .personal_message_field{display: block;width: 100%;padding-left: 0px}
+.indigene_reg textarea.personal_message{width: 100%;height: 100px}
+.indigene_reg .personal_message_label{display: block;width: 100%}
+.form-row{margin-left: 0px;margin-right: 0px}
+
+.errormsg{color: red;}
+#upload_member_photo{display:block;margin:10px 30px 0px}
+.cert_request_page .alert-danger{font-size: 13px}
+select.error,textarea.error,input[type="text"].error,input[type="password"].error, div.thumbnail.error, span.error{ border: 1px solid #a94442;color: #a94442;}
+div.error{ border: 1px solid #a94442;color: #a94442;padding: 5px}
+ .help-block{color: #a94442;margin: 0px}
+.lga_cert_request_form .form-row .col-md-6:first-of-type{padding-left: 0px;padding-right: 10px}
+.lga_cert_request_form .form-row .col-md-6:last-of-type{padding-left: 10px;padding-right: 0px}
+.lga_cert_request_form .thumbnail{width: 100%;max-width: 230px;height: 240px}
+.lga_cert_request_form .thumbnail img{width: 100%;max-width: 230px;}
+.register_link{padding: 10px 5px;display: inline-block}
+
+
+
+
+.indigene_reg .submit_btn{display: block;width: 100%;padding: 30px 0px}
+.indigene_reg .personal_message_field{display: block;width: 100%;padding-left: 0px}
+.indigene_reg .personal_message_field textarea{width: 100%;height: 100px}
+.indigene_reg .personal_message_label{display: block;width: 100%}
+.form-row{margin-left: 0px;margin-right: 0px}
+
+
+
+
+.indigene_reg .submit_btn{display: block;width: 100%;padding: 30px 0px}
+.indigene_reg .personal_message_field{display: block;width: 100%;padding-left: 0px}
+.indigene_reg textarea.personal_message{width: 100%;height: 100px}
+.indigene_reg .personal_message_label{display: block;width: 100%}
+.form-row{margin-left: 0px;margin-right: 0px}
+
+.errormsg{color: red;}
+#upload_member_photo{display:block;margin:10px 30px 0px}
+.indigene_reg .alert-danger{font-size: 13px}
+select.error,textarea.error,input[type="text"].error,input[type="password"].error, div.thumbnail.error, span.error{ border: 1px solid #a94442;color: #a94442;}
+div.error{ border: 1px solid #a94442;color: #a94442;padding: 5px}
+ .help-block{color: #a94442;margin: 0px}
+.indigene_reg_form.form-row .col-md-6:first-of-type{padding-left: 0px;padding-right: 10px}
+.indigene_reg_form .form-row .col-md-6:last-of-type{padding-left: 10px;padding-right: 0px}
+.indigene_reg_form .thumbnail{width: 100%;max-width: 230px;height: 240px}
+.indigene_reg_form .thumbnail img{width: 100%;max-width: 230px;}
+.register_link{padding: 10px 5px;display: inline-block}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.payment_teller_upload_form .thumbnail{width: 100%;max-width: 100%;height: auto}
+.payment_teller_upload_form .thumbnail img{width: auto;max-width: 100%;}
+
+#member_upload_modal .modal-header {display:block}
+  #member_upload_modal .modal-header .close{float:right;margin: 0px;padding: 0px;}
+  #member_upload_modal .modal-header .modal-title{float:left;margin: 0px;padding: 0px;}
+
+#payment_teller_upload_modal .modal-header {display:block}
+  #payment_teller_upload_modal .modal-header .close{float:right;margin: 0px;padding: 0px;}
+  #payment_teller_upload_modal .modal-header .modal-title{float:left;margin: 0px;padding: 0px;}
+
+.captcha_frame.error{border: 1px solid #a94442 !important;}
+.pointer_cursor,input[type='checkbox'],input[type='radio']{cursor: pointer}
+.cert_request_page .page_container {display: block;width: 100%;padding: 0px 15px 50px}
+.cert_request_page .page_container .option_field_label{padding-right: 15px}
+.cert_request_page .page_container .card.card-register{margin-top: 70px !important;width: 100%;max-width: 750px}
+.lga_cert_request_form .form-group{margin-bottom: 25px}
+
+.pointer_cursor,input[type='checkbox'],input[type='radio']{cursor: pointer}
+.indigene_reg .page_container {display: block;width: 100%;padding: 0px 15px 50px}
+.indigene_reg .page_container .option_field_label{padding-right: 15px}
+.indigene_reg .page_container .card.card-register{margin-top: 70px !important;width: 100%;max-width: 750px}
+.indigene_reg_form .form-group{margin-bottom: 25px}
+
+
+
+
+#upload_payment_teller{margin:25px 0px 0px}
+
+.print_cert_page .card{margin: 70px auto 50px !important;width: 100%;max-width: 670px;}
+.print_cert_page .card .card-body{padding: 50px 10px}
+.print_cert_page .card .card-body .user_name{font-weight:bold;font-size: 18px}
+.print_cert_page .card .card-body .print_note p{margin: 0px !important;}
+.print_cert_page .card .card-body .download_cert_holder{padding: 50px 0px 0px}
+.print_cert_page .card .card-body .download_cert_holder a{width: 100%;max-width: 210px;margin: 0px auto;display: block;padding: 5px 0px}
+.print_cert_page .card .card-body .download_cert_holder a:focus{color:#fff}
+
+
+/*** JCropit Responsive Styles  ****/
+#member_image_editor .cropit-preview {position:relative;background-size: cover;background-color: #f8f8f8;display: none;border: 1px solid #eee;}
+/*.cropit-preview img { max-width: none;}*/
+.cropit-preview-image-container {cursor: move;}
+#member_image_editor .image-size-label {display:none;margin-top: 10px;}
+.cropit-preview-background {opacity: .2;}
+input.cropit-image-zoom-input {position: relative;width: 100%;}
+
+.rotate_btn{padding: 2px 10px 5px}
+
+#payment_teller_image_editor .cropit-preview {position:relative;background-size: cover;background-color: #f8f8f8;display:none;border: 1px solid #eee;}
+#payment_teller_image_editor .cropit-preview img { max-width:none}
+#payment_teller_image_editor  .cropit-preview-image-container {cursor: move;}
+#payment_teller_image_editor .image-size-label {display:none;margin-top: 10px;}
+#payment_teller_image_editor .cropit-preview-background {opacity: .2;}
+#payment_teller_image_editor input.cropit-image-zoom-input {position: relative;width: 100%;}
+/*** End  ****/
+
+.payment_option .response_message{    width: 100%;  max-width: 650px;  display: block;  margin: 80px auto 0px;}
+.payment_option .response_message.success_holder{    width: 100%;  max-width: 700px;  display: block;  margin: 13% auto 40px;}
+.print_cert_page .response_message{    width: 100%;  max-width: 670px;  display: block;  margin: 8% auto 0px;}
+.print_cert_page .card.errors{margin-top: 0px !important;}
+.payment_option .response_message .col-md-12{padding:0px 0px}
+.payment_option  .card.card-payment{width: 100%;max-width: 650px;margin-bottom: 50px;padding-top: 0px !important;margin-top: 0px !important;padding-bottom: 30px !important;}
+.payment_option  .card.card-payment .user_details{display: block;width: 100%;padding-bottom: 30px}
+.payment_option  .card.card-payment .user_details label{display: block;width: 100%}
+.payment_option  .card.card-payment .bank_option{display: block;width: 100%;padding: 10px 0px }
+.payment_option  .card.card-payment .bank_option button{width: 100%;max-width: 250px;display: block;margin: 0px auto}
+.payment_option  .card.card-payment .online_option{display: block;width: 100%;padding: 10px 0px }
+.payment_option  .card.card-payment .online_option button{width: 100%;max-width: 250px;display: block;margin: 0px auto}
+.payment_option  .card.card-payment .online_option .paystack_banner{width: 100%;max-width: 250px;display: block;margin: 5px auto}
+
+.payment_option  .card.card-payment .loader_container {display:none;cursor: wait;left:0px;width: 100%;top:0px;height: 100%;position: fixed;background: rgba(0,0,0,0.6) ;z-index: 99}
+.payment_option  .card.card-payment .loader_container .loader_image {background: url("../img/loader_2.gif")  center no-repeat;width:auto;background-size: auto;height: 100%;vertical-align: middle}
+
+.payment_receipt .summary_title{display: block;padding: 20px 0px}
+.payment_receipt .content_holder p{display: block;padding: 5px 0px !important;margin: 0px !important;}
+.payment_receipt .print_receipt_row{display: block;padding: 70px 20px 0px;text-align: right}
+.payment_receipt .card-body{display: block;padding-bottom: 0px}
+.payment_receipt .print_logo_holder{display: block;width: 100%;max-width: 650px;margin:0px auto}
+.payment_receipt .response_message .alert{padding: 5px !important;margin: 0px !important;margin-bottom: 30px !important;}
+.payment_receipt .print_btn:focus{color:#fff;opacity: 0.7}
+
+.success_btn{display: block;width: 100%;max-width: 210px;margin: 10px auto}
+
+@media (max-width: 767px) {
+  .lga_cert_request_form .form-row .col-md-6:first-of-type{padding:0px 0px 25px;}
+  .lga_cert_request_form .form-row .col-md-6:last-of-type{padding:0px 0px}
+  .lga_cert_request_form .form-group{margin-bottom: 25px}
+}
+
+.print_logo{display:none;padding: 10px 0px 10px }
+.print_logo img{width: 100%;max-width: 60px}
+
+@media print {
+  .page-break	{ display: block; page-break-after: always;}
+  .header_holder{display: none}
+  .print_logo{display:block}
+  .hide_print{display:none !important;}
+  .payment_receipt .response_message .alert{border: none;margin: 0px !important;}
+  .payment_receipt .card-header {color: #333;font-weight: bold;font-size: 20px}
+  .payment_receipt .content_holder p {color: #333;}
+  .payment_receipt .summary_title kbd {color: #333;font-weight: bold;font-size: 16px}
+  .payment_receipt .container-fluid  {padding-top: 80px}
 }

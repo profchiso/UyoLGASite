@@ -70,57 +70,16 @@ form start
           <div class="form-group">
             <div class="form-row">
               <div class="col-md-6">
-                <label for="exampleInputName">Surname <b style="color: red;">*</b></label>
-                <input class="form-control" id="Surname" type="text" aria-describedby="nameHelp" placeholder="Enter Surname" name="Surname" required="">
+                <label for="exampleInputName">Email <b style="color: red;">*</b></label>
+                <input class="form-control" id="email" type="text" aria-describedby="nameHelp" placeholder="Enter Email" name="email" required="">
               </div>
               <div class="col-md-6">
-                <label for="exampleInputLastName">Othernames <b style="color: red;">*</b></label>
-                <input class="form-control" id="Othernames" type="text" aria-describedby="nameHelp" placeholder="Enter Othernames" name="Othernames" required="">
+                <label for="exampleInputLastName">Password <b style="color: red;">*</b></label>
+                <input class="form-control" id="password" type="text" aria-describedby="nameHelp" placeholder="Enter Password" name="password" required="">
               </div>
             </div>
           </div>
 
-
-
-          <div class="form-group">
-            <div class="form-row">
-              <div class="col-md-6">
-                <label for="exampleInputName">Sex <b style="color: red;">*</b></label>
-                <input class="form-control" id="Sex" type="text" aria-describedby="phoneHelp" placeholder="Enter Sex" name="Sex" required="">
-              </div>
-              <div class="col-md-6">
-                <label for="exampleInputLastName">Phone Number <b style="color: red;">*</b></label>
-                <input class="form-control" id="Date_of_birth" type="number" aria-describedby="nameHelp" placeholder="Enter your Phone number" name="Phone_number" required="">
-              </div>
-            </div>
-          </div>
-
-<div class="form-group">
-            <div class="form-row">
-              <div class="col-md-6">
-                <label for="exampleInputName">Ward <b style="color: red;">*</b></label>
-                <input class="form-control" id="Village" type="text" aria-describedby="phoneHelp" placeholder="Enter your ward" name="ward" required="">
-              </div>
-              <div class="col-md-6">
-                <label for="exampleInputLastName">Clan <b style="color: red;">*</b></label>
-                <input class="form-control" id="Clan" type="text" aria-describedby="nameHelp" placeholder="Enter your clan" name="Clan" required="">
-              </div>
-            </div>
-          </div>
-
-
-
-
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email Address <b style="color: red;">*</b></label>
-            <input class="form-control" id="Residential_address" type="email" aria-describedby="emailHelp" placeholder="Enter Your Email Address" name="Residential_address" required="">
-          </div>
-          
-         
-
-        
-
-          
 
 
 

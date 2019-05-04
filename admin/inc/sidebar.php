@@ -30,7 +30,7 @@
                         <a href="stud_reg.php"><i class="fa fa-plus"></i> Registration <span class="fa arrow"></span></a>
                     </li>-->
                     <li>
-                        <a href="LGA_CERT_REQUEST.php"><i class="fa fa-user"></i>View LGA Cert Request<span class="fa arrow"></span></a>
+                        <a href="cert_request.php"><i class="fa fa-user"></i>View LGA Cert Request<span class="fa arrow"></span></a>
                     </li>
 
                     <li>
@@ -39,7 +39,7 @@
 
 
                      <li>
-                        <a href="apply_allocate.php"><i class="fa fa-user"></i> View Indigene Reg Table<span class="fa arrow"></span></a>
+                        <a href="message.php"><i class="fa fa-user"></i> View Indigene Reg Table<span class="fa arrow"></span></a>
                     </li>
                     <li>
                         <a href="training_reg.php"><i class="fa fa-star"></i>Training Registrations <span class="fa arrow"></span></a>

@@ -1,6 +1,4 @@
-<?php
-include 'inc/config.php';
-?>
+
 <!DOCTYPE html>
 <html>
 <head>

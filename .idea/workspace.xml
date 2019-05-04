@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b26774e-ebd2-4d2c-85d2-89a173283928" name="Default" comment="" />
+    <list default="true" id="9b26774e-ebd2-4d2c-85d2-89a173283928" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/clients/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/clients/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/clients/client-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/clients/client-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/clients/client-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/clients/client-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/clients/client-5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/clients/client-6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/clients/client-7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/clients/client-8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lga_cert_request.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uyo_db.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uyo_lga_db.sql" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/LGA_CERT_REQUEST.php" afterPath="$PROJECT_DIR$/admin/cert_request.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uyolga.iml" afterPath="$PROJECT_DIR$/.idea/uyolga.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Computer_skill_reg.php" afterPath="$PROJECT_DIR$/Computer_skill_reg.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/config.php" afterPath="$PROJECT_DIR$/admin/inc/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/header.php" afterPath="$PROJECT_DIR$/admin/inc/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/sidebar.php" afterPath="$PROJECT_DIR$/admin/inc/sidebar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/report.php" afterPath="$PROJECT_DIR$/admin/report.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forgot-password.php" afterPath="$PROJECT_DIR$/forgot-password.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/indigene_reg.php" afterPath="$PROJECT_DIR$/indigene_reg.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.php" afterPath="$PROJECT_DIR$/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/print_cert.php" afterPath="$PROJECT_DIR$/print_cert.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,22 +40,111 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="lga_cert_request.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lga_cert_request.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+            <state relative-caret-position="30">
+              <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/inc/header.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidebar.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/inc/sidebar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="session.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/inc/session.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="report.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/report.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+              <folding>
+                <marker date="1532905224730" expanded="true" signature="916:946" ph="SELECT * FRO... lga_cert_request" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cert_request.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/cert_request.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+              <folding>
+                <marker date="1532905691798" expanded="true" signature="1577:1607" ph="SELECT * FRO... lga_cert_request" />
+                <marker date="1532905691798" expanded="true" signature="7822:7956" ph="INSERT INTO applications... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="url.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/url.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/inc/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/payment/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <marker date="1532873224513" expanded="true" signature="151:204" ph="SELECT * FRO... lga_cert_request" />
+                <marker date="1532873224513" expanded="true" signature="785:829" ph="SELECT * FRO... payment" />
+                <marker date="1532873224513" expanded="true" signature="1129:1173" ph="SELECT * FRO... payment" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db_connect.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/db_connect.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -40,6 +159,35 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/lga_cert_request.php" />
+        <option value="$PROJECT_DIR$/services/help_file.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/db_connect.php" />
+        <option value="$PROJECT_DIR$/root_dir.php" />
+        <option value="$PROJECT_DIR$/url.php" />
+        <option value="$PROJECT_DIR$/.idea/EmailService.php" />
+        <option value="$PROJECT_DIR$/EmailService.php" />
+        <option value="$PROJECT_DIR$/lga_cert_request/index.php" />
+        <option value="$PROJECT_DIR$/payment/paymentoption.php" />
+        <option value="$PROJECT_DIR$/payment/process_online_payment.php" />
+        <option value="$PROJECT_DIR$/payment/payment_receipt.php" />
+        <option value="$PROJECT_DIR$/payment/process_bank_payment.php" />
+        <option value="$PROJECT_DIR$/lga_cert_request/cert_request_process.php" />
+        <option value="$PROJECT_DIR$/payment/index.php" />
+        <option value="$PROJECT_DIR$/login_process.php" />
+        <option value="$PROJECT_DIR$/login.php" />
+        <option value="$PROJECT_DIR$/payment/teller_upload.php" />
+        <option value="$PROJECT_DIR$/payment/complete_payment.php" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/print_cert/index.php" />
+        <option value="$PROJECT_DIR$/print_cert/print_cert_process.php" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/admin/inc/config.php" />
+        <option value="$PROJECT_DIR$/admin/url.php" />
+        <option value="$PROJECT_DIR$/admin/inc/header.php" />
+        <option value="$PROJECT_DIR$/admin/report.php" />
+        <option value="$PROJECT_DIR$/admin/LGA_CERT_REQUEST.php" />
+        <option value="$PROJECT_DIR$/admin/inc/sidebar.php" />
       </list>
     </option>
   </component>
@@ -51,10 +199,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -72,6 +220,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -79,17 +229,72 @@
               <item name="uyolga" type="b2602c69:ProjectViewProjectNode" />
               <item name="uyolga" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="uyolga" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uyolga" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="uyolga" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uyolga" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="inc" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="uyolga" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uyolga" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="services" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="uyolga" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uyolga" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="uyolga" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uyolga" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="uyolga" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uyolga" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lga_cert_request" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="uyolga" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uyolga" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="payment" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="uyolga" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uyolga" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="print_cert" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="uyolga" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uyolga" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="services" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\uyolga\admin" />
+      <recent name="C:\xampp\htdocs\uyolga\img" />
+      <recent name="C:\xampp\htdocs\uyolga\payment" />
+      <recent name="C:\xampp\htdocs\uyolga" />
+      <recent name="C:\xampp\htdocs\uyolga\.idea" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -106,6 +311,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9b26774e-ebd2-4d2c-85d2-89a173283928" name="Default" comment="" />
@@ -113,35 +321,59 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532677364205</updated>
-      <workItem from="1532677372075" duration="1015000" />
+      <workItem from="1532677372075" duration="1638000" />
+      <workItem from="1532795270453" duration="1583000" />
+      <workItem from="1532800166035" duration="561000" />
+      <workItem from="1532805754266" duration="18922000" />
+      <workItem from="1532852240602" duration="7573000" />
+      <workItem from="1532863802566" duration="25100000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1015000" />
+    <option name="totallyTimeSpent" value="79333000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -150,14 +382,133 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/payment/payment_receipt.php</url>
+          <line>106</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/print_cert/print_cert_process.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lga_cert_request.php">
+    <entry file="file://$PROJECT_DIR$/EmailService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="765">
+          <caret line="51" column="41" lean-forward="true" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+          <folding>
+            <marker date="1532799052476" expanded="true" signature="1517:2135" ph="..." />
+            <marker date="1532799052476" expanded="true" signature="1529:2124" ph="..." />
+            <marker date="1532799052476" expanded="true" signature="1539:1734" ph="..." />
+            <marker date="1532799052476" expanded="true" signature="1551:1723" ph="..." />
+            <marker date="1532799052476" expanded="false" signature="1572:1622" ph="..." />
+            <marker date="1532799052476" expanded="true" signature="1636:1664" ph="..." />
+            <marker date="1532799052476" expanded="true" signature="1744:2038" ph="..." />
+            <marker date="1532799052476" expanded="false" signature="1763:1778" ph="..." />
+            <marker date="1532799052476" expanded="true" signature="1779:2027" ph="..." />
+            <marker date="1532799052476" expanded="false" signature="1799:1905" ph="..." />
+            <marker date="1532799052476" expanded="true" signature="1932:1999" ph="..." />
+            <marker date="1532799052476" expanded="true" signature="2048:2111" ph="..." />
+            <marker date="1532799052476" expanded="false" signature="2090:2096" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1532873224513" expanded="true" signature="151:204" ph="SELECT * FRO... lga_cert_request" />
+            <marker date="1532873224513" expanded="true" signature="785:829" ph="SELECT * FRO... payment" />
+            <marker date="1532873224513" expanded="true" signature="1129:1173" ph="SELECT * FRO... payment" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/url.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/root_dir.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22425">
+          <caret line="1495" column="31" lean-forward="false" selection-start-line="1495" selection-start-column="31" selection-end-line="1495" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" column="40" lean-forward="false" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lga_cert_request/cert_request_process.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="83" column="64" lean-forward="false" selection-start-line="83" selection-start-column="64" selection-end-line="83" selection-end-column="64" />
+          <folding>
+            <marker date="1532872134760" expanded="true" signature="4571:4620" ph="SELECT * FRO... lga_cert_request" />
+            <marker date="1532872134760" expanded="true" signature="4571:4623" ph="SELECT * FRO... lga_cert_request" />
+            <marker date="1532872134760" expanded="true" signature="5336:5379" ph="INSERT INTO lga_cert_request... " />
+            <marker date="1532872134760" expanded="true" signature="5336:6492" ph="INSERT INTO lga_cert_request... " />
+            <marker date="1532872134760" expanded="true" signature="5336:6493" ph="INSERT INTO lga_cert_request... " />
+            <marker date="1532872134760" expanded="true" signature="5336:6509" ph="INSERT INTO lga_cert_request... " />
+            <marker date="1532872134760" expanded="true" signature="5336:6528" ph="INSERT INTO lga_cert_request... " />
+            <marker date="1532872134760" expanded="true" signature="5336:6529" ph="INSERT INTO lga_cert_request... " />
+            <marker date="1532872134760" expanded="true" signature="5336:6530" ph="INSERT INTO lga_cert_request... " />
+            <marker date="1532872134760" expanded="true" signature="7340:8047" ph="..." />
+            <marker date="1532872134760" expanded="false" signature="7459:7465" ph=" " />
+            <marker date="1532872134760" expanded="false" signature="7590:7596" ph=" " />
+            <marker date="1532872134760" expanded="false" signature="7667:7673" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lga_cert_request.php" />
+    <entry file="file://$PROJECT_DIR$/lga_cert_request.php" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -166,6 +517,401 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/cropit/jquery.cropit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/bootbox/bootbox.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lga_cert_request.php" />
+    <entry file="file://$PROJECT_DIR$/services/help_file.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <marker date="1532773600229" expanded="true" signature="215:252" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/EmailService.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/paystack-php/src/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" column="40" lean-forward="false" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmailService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="23" lean-forward="false" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+          <folding>
+            <marker date="1532799052476" expanded="true" signature="1517:2135" ph="..." />
+            <marker date="1532799052476" expanded="true" signature="1529:2124" ph="..." />
+            <marker date="1532799052476" expanded="true" signature="1539:1734" ph="..." />
+            <marker date="1532799052476" expanded="true" signature="1551:1723" ph="..." />
+            <marker date="1532799052476" expanded="false" signature="1572:1622" ph="..." />
+            <marker date="1532799052476" expanded="true" signature="1636:1664" ph="..." />
+            <marker date="1532799052476" expanded="true" signature="1744:2038" ph="..." />
+            <marker date="1532799052476" expanded="false" signature="1763:1778" ph="..." />
+            <marker date="1532799052476" expanded="true" signature="1779:2027" ph="..." />
+            <marker date="1532799052476" expanded="false" signature="1799:1905" ph="..." />
+            <marker date="1532799052476" expanded="true" signature="1932:1999" ph="..." />
+            <marker date="1532799052476" expanded="true" signature="2048:2111" ph="..." />
+            <marker date="1532799052476" expanded="false" signature="2090:2096" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/root_dir.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/CurlMultiHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="98" column="20" lean-forward="false" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/url.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment/payment_receipt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="78" column="22" lean-forward="false" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
+          <folding>
+            <marker date="1532827433803" expanded="true" signature="585:649" ph="SELECT * FRO... order_table" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lga_cert_request/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="236" column="36" lean-forward="true" selection-start-line="236" selection-start-column="36" selection-end-line="236" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lga_cert_request/cert_request_process.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="74" column="72" lean-forward="false" selection-start-line="74" selection-start-column="56" selection-end-line="74" selection-end-column="72" />
+          <folding>
+            <marker date="1532872134760" expanded="true" signature="4571:4620" ph="SELECT * FRO... lga_cert_request" />
+            <marker date="1532872134760" expanded="true" signature="4571:4623" ph="SELECT * FRO... lga_cert_request" />
+            <marker date="1532872134760" expanded="true" signature="5336:5379" ph="INSERT INTO lga_cert_request... " />
+            <marker date="1532872134760" expanded="true" signature="5336:6492" ph="INSERT INTO lga_cert_request... " />
+            <marker date="1532872134760" expanded="true" signature="5336:6493" ph="INSERT INTO lga_cert_request... " />
+            <marker date="1532872134760" expanded="true" signature="5336:6509" ph="INSERT INTO lga_cert_request... " />
+            <marker date="1532872134760" expanded="true" signature="5336:6528" ph="INSERT INTO lga_cert_request... " />
+            <marker date="1532872134760" expanded="true" signature="5336:6529" ph="INSERT INTO lga_cert_request... " />
+            <marker date="1532872134760" expanded="true" signature="5336:6530" ph="INSERT INTO lga_cert_request... " />
+            <marker date="1532872134760" expanded="true" signature="7340:8047" ph="..." />
+            <marker date="1532872134760" expanded="false" signature="7459:7465" ph=" " />
+            <marker date="1532872134760" expanded="false" signature="7590:7596" ph=" " />
+            <marker date="1532872134760" expanded="false" signature="7667:7673" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login_process.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="34" column="58" lean-forward="false" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
+          <folding>
+            <marker date="1532876094417" expanded="true" signature="833:882" ph="SELECT * FRO... user_table" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="87" column="18" lean-forward="false" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="18" />
+          <folding>
+            <marker date="1532876444585" expanded="true" signature="3702:3834" ph="..." />
+            <marker date="1532876444585" expanded="true" signature="3867:3935" ph="..." />
+            <marker date="1532876444585" expanded="true" signature="3960:6402" ph="..." />
+            <marker date="1532876444585" expanded="true" signature="3989:5743" ph="..." />
+            <marker date="1532876444585" expanded="true" signature="4019:5732" ph="..." />
+            <marker date="1532876444585" expanded="true" signature="4045:5719" ph="..." />
+            <marker date="1532876444585" expanded="true" signature="4100:4305" ph="..." />
+            <marker date="1532876444585" expanded="true" signature="4361:4550" ph="..." />
+            <marker date="1532876444585" expanded="true" signature="4412:4533" ph="..." />
+            <marker date="1532876444585" expanded="true" signature="4608:5362" ph="..." />
+            <marker date="1532876444585" expanded="true" signature="4656:4889" ph="..." />
+            <marker date="1532876444585" expanded="true" signature="4929:5344" ph="..." />
+            <marker date="1532876444585" expanded="true" signature="5423:5703" ph="..." />
+            <marker date="1532876444585" expanded="true" signature="5578:5686" ph="..." />
+            <marker date="1532876444585" expanded="true" signature="5772:6390" ph="..." />
+            <marker date="1532876444585" expanded="true" signature="5802:5921" ph="..." />
+            <marker date="1532876444585" expanded="true" signature="5949:6379" ph="..." />
+            <marker date="1532876444585" expanded="true" signature="5963:6290" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment/complete_payment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="85" column="263" lean-forward="false" selection-start-line="85" selection-start-column="263" selection-end-line="85" selection-end-column="263" />
+          <folding>
+            <marker date="1532896040072" expanded="true" signature="2370:2581" ph="INSERT INTO order_table... " />
+            <marker date="1532896040072" expanded="true" signature="3593:4263" ph="..." />
+            <marker date="1532896040072" expanded="true" signature="4040:4047" ph="..." />
+            <marker date="1532896040072" expanded="true" signature="4651:4765" ph="..." />
+            <marker date="1532896040072" expanded="true" signature="4651:4766" ph="..." />
+            <marker date="1532896040072" expanded="true" signature="4651:5323" ph="..." />
+            <marker date="1532896040072" expanded="true" signature="5109:5116" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment/process_online_payment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+          <folding>
+            <marker date="1532821163197" expanded="true" signature="585:638" ph="SELECT * FRO... lga_cert_request" />
+            <marker date="1532821163197" expanded="true" signature="1182:1223" ph="UPDATE lga_c... " />
+            <marker date="1532821163197" expanded="true" signature="1182:1253" ph="UPDATE lga_c... " />
+            <marker date="1532821163197" expanded="true" signature="1182:1269" ph="UPDATE lga_c... " />
+            <marker date="1532821163197" expanded="true" signature="1182:1295" ph="UPDATE lga_c... " />
+            <marker date="1532821163197" expanded="true" signature="1461:1508" ph="/*** Initial... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment/process_bank_payment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <marker date="1532870550440" expanded="true" signature="455:508" ph="SELECT * FRO... lga_cert_request" />
+            <marker date="1532870550440" expanded="true" signature="2508:2621" ph="UPDATE lga_c... " />
+            <marker date="1532870550440" expanded="true" signature="2787:2831" ph="SELECT * FRO... payment" />
+            <marker date="1532870550440" expanded="true" signature="2787:2866" ph="SELECT * FRO... payment" />
+            <marker date="1532870550440" expanded="true" signature="3367:3457" ph="UPDATE payme... " />
+            <marker date="1532870550440" expanded="true" signature="3367:3476" ph="UPDATE payme... " />
+            <marker date="1532870550440" expanded="true" signature="3367:3495" ph="UPDATE payme... " />
+            <marker date="1532870550440" expanded="true" signature="3367:3515" ph="UPDATE payme... " />
+            <marker date="1532870550440" expanded="true" signature="3367:3516" ph="UPDATE payme... " />
+            <marker date="1532870550440" expanded="true" signature="3367:3532" ph="UPDATE payme... " />
+            <marker date="1532870550440" expanded="true" signature="3367:3549" ph="UPDATE payme... " />
+            <marker date="1532870550440" expanded="true" signature="3367:3579" ph="UPDATE payme... " />
+            <marker date="1532870550440" expanded="true" signature="3367:3599" ph="UPDATE payme... " />
+            <marker date="1532870550440" expanded="true" signature="3367:3605" ph="UPDATE payme... " />
+            <marker date="1532870550440" expanded="true" signature="3674:3846" ph="INSERT INTO payment... " />
+            <marker date="1532870550440" expanded="true" signature="3674:3857" ph="INSERT INTO payment... " />
+            <marker date="1532870550440" expanded="true" signature="3674:3883" ph="INSERT INTO payment... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment/teller_upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="121" column="56" lean-forward="false" selection-start-line="121" selection-start-column="56" selection-end-line="121" selection-end-column="56" />
+          <folding>
+            <marker date="1532873137551" expanded="true" signature="192:245" ph="SELECT * FRO... lga_cert_request" />
+            <marker date="1532873137551" expanded="true" signature="826:870" ph="SELECT * FRO... payment" />
+            <marker date="1532873137551" expanded="true" signature="1170:1214" ph="SELECT * FRO... payment" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="1530" column="58" lean-forward="false" selection-start-line="1530" selection-start-column="58" selection-end-line="1530" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/print_cert/print_cert_process.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding>
+            <marker date="1532903774487" expanded="true" signature="228:281" ph="SELECT * FRO... lga_cert_request" />
+            <marker date="1532903774487" expanded="true" signature="681:726" ph="SELECT * FRO... download" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/print_cert/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="82" column="40" lean-forward="false" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="40" />
+          <folding>
+            <marker date="1532903565122" expanded="true" signature="189:242" ph="SELECT * FRO... lga_cert_request" />
+            <marker date="1532903565122" expanded="true" signature="503:547" ph="SELECT * FRO... payment" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="460" column="26" lean-forward="true" selection-start-line="460" selection-start-column="26" selection-end-line="460" selection-end-column="26" />
+          <folding>
+            <marker date="1532904202973" expanded="true" signature="24800:24806" ph=" " />
+            <marker date="1532904202973" expanded="true" signature="25047:25053" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/db_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/inc/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <marker date="1532873224513" expanded="true" signature="151:204" ph="SELECT * FRO... lga_cert_request" />
+            <marker date="1532873224513" expanded="true" signature="785:829" ph="SELECT * FRO... payment" />
+            <marker date="1532873224513" expanded="true" signature="1129:1173" ph="SELECT * FRO... payment" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/inc/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/url.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/services/help_file.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <marker date="1532773600229" expanded="true" signature="215:252" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/inc/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/report.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+          <folding>
+            <marker date="1532905224730" expanded="true" signature="916:946" ph="SELECT * FRO... lga_cert_request" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/cert_request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <folding>
+            <marker date="1532905691798" expanded="true" signature="1577:1607" ph="SELECT * FRO... lga_cert_request" />
+            <marker date="1532905691798" expanded="true" signature="7822:7956" ph="INSERT INTO applications... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/inc/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
           <folding />
         </state>
       </provider>

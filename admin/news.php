@@ -1,7 +1,9 @@
 <?php
+//require_once'db_connect.php';
 include 'inc/header.php';
 include 'inc/sidebar.php';
-$fetch = mysql_query("SELECT * FROM news");
+include('inc/config.php');
+//$fetch = mysql_query("SELECT * FROM news");
 ?>
 <div id="page-wrapper">
 	<div class="row">
@@ -29,6 +31,7 @@ $fetch = mysql_query("SELECT * FROM news");
 						</thead>
 						<tbody>
 							<?php
+							$fetch = mysql_query("SELECT * FROM news");
 								while ($row = mysql_fetch_array($fetch)) {
 							?>
 							<tr>

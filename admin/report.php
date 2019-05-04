@@ -1,13 +1,16 @@
 <?php
+
+require_once 'db_connect.php';
 include 'inc/header.php';
 include 'inc/sidebar.php';
-include('inc/config.php');
+require_once 'root_dir.php';
+require_once 'services/help_file.php';
 ?>
 <div id="page-wrapper">
 	<div class="row">
 		<!-- Page Header -->
 		<div class="col-md-12 col-sm-12 col-xs-12">
-			<h1 class="page-header">Training Registration Portal</h1>
+			<h1 class="page-header text-center">LGA CERTIFICATE REQUEST PORTAL</h1>
 		</div>
 		<!-- Page Header -->
 	</div>
@@ -15,41 +18,50 @@ include('inc/config.php');
 		<div class="col-md-12">
 			<div class="panel panel-primary">
 				<div class="panel-heading">
-					<h3>Training Registrations</h3>
+					<h3 class="text-center">LGA Certificate Requests</h3>
 				</div>
 				<div class="panel-body table-responsive">
-					<table class="table table-striped">
+					<table class="table table-striped table-responsive" width="100%">
 						<thead>
 							
-							<th>Serial Number</th>
+							<th>ID</th>
 							<th>Surname</th>
 							<th>Othernames</th>
 							<th>Sex</th>
 							<th>Phone</th>
-							<th>Interest</th>
+							<th>Email</th>
 
 							<th>Passport</th>
-							<th>Date Of Reg</th>
+							<th>Date Requested</th>
+							<th class="text-center" style="color: green;">ACTIONS</th>
 
 						</thead>
 						<tbody>
 							<?php
-							$fetch = mysql_query("SELECT * FROM training_reg");
-								while ($row = mysql_fetch_array($fetch)) {
-							?>
+$stmt = $conn->prepare("SELECT * FROM lga_cert_request");
+$stmt->execute(array());
+$users_data=array();
+while($row= $stmt->fetch(PDO::FETCH_ASSOC)){
+      $users_data[]=$row;
+//}
+//_d($users_data,1);
+
+
+								//while ($row = mysql_fetch_array($users_data)) {
+							//?>
 							<tr>
 								
-								<td><?php echo $row['Serial_number']?></td>
+								<td><?php echo $row['id']?></td>
 								
-								<td><?php echo $row['Surname']?></td>
-								<td><?php echo $row['Othernames']?></td>
-								<td><?php echo $row['Sex']?></td>
-								<td><?php echo $row['Phone_number']?></td>
-								<td><?php echo $row['Interest']?></td>
+								<td><?php echo $row['surname']?></td>
+								<td><?php echo $row['othernames']?></td>
+								<td><?php echo $row['gender']?></td>
+								<td><?php echo $row['phone_number']?></td>
+								<td><?php echo $row['email']?></td>
 
-								<td><?php echo $row['Passport']?></td>
+								<td><?php echo"<img class'image-rounded' src '$row['passport']'"?></td>
 
-								<td><?php echo $row['Date_of_reg']?></td>
+								<td><?php echo $row['date_requested']?></td>
 
 
 							</tr>

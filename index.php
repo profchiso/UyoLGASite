@@ -1,3 +1,73 @@
+<?php
+session_start();
+require_once 'services/help_file.php';
+//require_once 'db_connect.php';
+require_once 'EmailService.php';
+
+if(isset($_POST['send_msg'])){    
+$servername="localhost";
+$username="uyo_lga";
+$password="uyolgaadmin";
+$db="uyo_lga";  
+//contact variables
+      $name = $_POST['name'];
+      $email = $_POST['email'];
+      $subject = $_POST['subject'];
+      $message= $_POST['message'];
+
+try{
+
+  $conn= new PDO("mysql:host=$servername;dbname=$db",$username,$password);
+
+  $conn->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
+
+
+  
+
+       if(!empty($name) && !empty($email) && !empty($subject) && !empty($message)){
+ 
+  $sql="INSERT INTO message(senders_name,email,subject,message)value('$name','$email','$subject','$message')";
+$conn->exec($sql);
+echo "<script> alert('Message sent. We will get back to you shortly!')</script>";
+}else{
+  echo "<script>alert('all field required')</script>";
+}
+ 
+}
+catch(PDOException $e){
+  echo $sql."<br/>".$e->getmessage();
+}
+
+
+
+}
+/***   Send Admin Notification Email if Message Sent Successfully *****/
+$conn=null;
+ 
+
+                  //$email_data['message'] = '
+         // <div>
+             //  New Message From.<br />
+             // <br />
+              //<b>Name: &nbsp;</b>'.ucwords(strtolower($name)).'
+              //<br/><b>Email: &nbsp;</b>'.strtolower($email).'
+              //<br/><b>Subject: &nbsp;</b>'.$subject.'
+               /*<br/><b>Subject: &nbsp;</b>'.$message.'
+              <br/><br/>
+              <br />
+             
+              Thank You,
+              <br/>
+              Uyo LGA<br />
+          </div>
+          ';
+
+                  $result_obj = new Email();
+                  $email_data = array_merge($email_data, array('to' => 'uyolga2018@gmail.com', 'subject' => 'Admin Notification for New Cantact Message'));
+                  $res=$result_obj->notifyAdmin($email_data);
+                  header('Location:index.php');
+                  exit();*/
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,7 +95,7 @@
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style.css?v=<?php echo time(); ?>" rel="stylesheet">
 
   
 </head>
@@ -46,8 +116,8 @@
 
 										<h6 style="color: green;">
                                         <?php
-                                        //date_default_timezone_set("");
-                                        $new = date('l, d,m, Y');//, strtotime($Today));
+                                        date_default_timezone_set('Africa/Lagos');
+                                        $new = date('l-d-m-Y');//, strtotime($Today));
                                         echo $new;
                                         ?>
                                         </h6>
@@ -72,11 +142,11 @@
 
           <li class="menu-has-children"><a href="">Registrations</a>
             <ul>
-              <li><a href="lga_cert_request.php">Request for LGA Certificate</a></li>
+              <li><a href="lga_cert_request">Request for LGA Certificate</a></li>
               <li><a href="indigene_reg.php">Register as an indigene</a></li>
-              <li><a href="Computer_skill_reg.php">Register for Computer Training</a></li>
-              <li><a href="payment.php">Make Payment Online</a></li>
-              <li><a href="print_cert.php">Print LGA Cert.</a></li>
+              <!--<li><a href="Computer_skill_reg.php">Register for Computer Training</a></li>-->
+              <!--<li><a href="payment.php">Make Payment Online</a></li>-->
+              <li><a href="login.php">Print LGA Cert.</a></li>
             </ul>
           </li>
           
@@ -145,25 +215,15 @@
               <div class="carousel-content">
                 <h2>Legislative Building</h2>
                 
-                
               </div>
             </div>
           </div>
-
-
-
-
-
-
-
 
           <div class="carousel-item">
             <div class="carousel-background"><img src="img/intro-carousel/3.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>Finance Building</h2>
-                
-                
+                <h2>Finance Building</h2>       
               </div>
             </div>
           </div>
@@ -218,6 +278,7 @@
 
 <section id="news">
       <div class="container">
+        <br><br>
 
         <header class="section-header wow fadeInUp">
           <h3>News And Happenings</h3>
@@ -262,24 +323,6 @@
       </div>
     </section>
     <!--News section end-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
 
     <!--==========================
       About Us Section Starts
@@ -391,9 +434,6 @@
       </div>
     </section>
     <!-- #services Section end -->
-
-    
-
     <!--==========================
       Photo gallery Section starts
     ============================-->
@@ -408,9 +448,7 @@
           <div class="col-lg-12">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-             <!-- <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>-->
+             
             </ul>
           </div>
         </div>
@@ -492,7 +530,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+          <!--<div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <figure>
                 <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">
@@ -550,7 +588,7 @@
                 <p>Web</p>
               </div>
             </div>
-          </div>
+          </div>-->
 
         </div>
 
@@ -731,30 +769,12 @@
     <!-- #Head of departments ends -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!--==========================
       Contact Section starts
     ============================-->
     <section id="contact" class="section-bg wow fadeInUp">
       <div class="container">
+
 
         <div class="section-header">
           <h3>Contact Us</h3>
@@ -792,6 +812,7 @@
         <div class="form">
           <div id="sendmessage">Your message has been sent. Thank you!</div>
           <div id="errormessage"></div>
+          <h6 class="text-center" style="color: red; ">Note All contact field are Required</h6>
           <form action="" method="post" role="form" class="contactForm">
             <div class="form-row">
               <div class="form-group col-md-6">
@@ -808,10 +829,10 @@
               <div class="validation"></div>
             </div>
             <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <textarea class="form-control" name="message" id="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
               <div class="validation"></div>
             </div>
-            <div class="text-center"><button type="submit">Send Message</button></div>
+            <div class="text-center"><button type="submit" name="send_msg" id="send_msg">Send Message</button></div>
           </form>
         </div>
 
@@ -867,13 +888,13 @@
 
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-newsletter">
+          <!--<div class="col-lg-3 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>
             <p>Enter your email address to subscribe to our newsletter.</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit"  value="Subscribe">
             </form>
-          </div>
+          </div>-->
 
         </div>
       </div>
@@ -891,7 +912,7 @@
           Licensing information: https://bootstrapmade.com/license/
           Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
         -->
-        Designed by <a href="https://profchisotect.com">profchisotech</a>
+        Designed by <a href="https://giftedbraintech.com">giftedbraintech</a>
       </div>
     </div>
   </footer><!-- #footer -->
@@ -917,10 +938,10 @@
 
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
   <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
+  <!--<script src="contactform/contactform.js"></script>-->
 
   <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
+  <script src="js/main.js?v=<?php echo time(); ?>"></script>
 
 </body>
 </html>
